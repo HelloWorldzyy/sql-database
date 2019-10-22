@@ -1,0 +1,66 @@
+﻿  qetest_01.cc
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(84): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(149): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(157): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(165): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(176): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(187): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(195): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(253): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(259): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(419): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(543): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(553): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(560): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(567): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(775): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(779): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(794): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(798): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(808): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\test_util.h(812): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(46): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(56): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(65): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(74): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(102): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(112): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(120): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(128): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(136): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(516): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(523): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(531): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(539): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(547): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(557): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(592): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(599): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(607): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(615): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(623): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(660): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(667): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(674): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(681): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(688): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(697): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\rm_test_util.h(706): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\qe_test_util.h(411): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\qe_test_util.h(419): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\qe_test_util.h(427): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\qe_test_util.h(452): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\qe_test_util.h(460): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\qe_test_util.h(469): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\qe_test_util.h(495): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\qe_test_util.h(502): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\qe_test_util.h(529): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\qe_test_util.h(538): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\zhaoy\documents\visual studio 2015\projects\cs222\cs222\qe_test_util.h(677): warning C4101: “rid”: 未引用的局部变量
+  正在生成代码
+  28 of 1494 functions ( 1.9%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    17 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  CS222.vcxproj -> C:\Users\zhaoy\Documents\Visual Studio 2015\Projects\CS222\Release\CS222.exe
+  CS222.vcxproj -> C:\Users\zhaoy\Documents\Visual Studio 2015\Projects\CS222\Release\CS222.pdb (Full PDB)

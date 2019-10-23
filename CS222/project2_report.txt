@@ -1,0 +1,103 @@
+1. Basic information
+
+OS (bit) : Ubuntu 14.04 64-bit
+gcc version : 4.3.1
+
+
+
+2. Meta-data
+- Show your meta-data design (Tables and Columns table) and information about each column.
+
+Tables:
+filename is "Tables". When createCatalog() is called, initialized with 2 default entries 
+
+ table-id:int, table-name:varchar(50), file-name:varchar(50)
+        (1,       "Tables",               "Tables")
+        (2,       "Columns",              "Columns")
+
+When a user call createTable() creat a table, an entry with table-id, table-name and file-name(same as table-name) will be inserted to "Tables".
+
+
+Columns:
+filename is "Columns". When createCatalog() is called, initialized following information,
+
+ table-id:int, column-name:varchar(50), column-type:int, column-length:int, column-position:int
+          (0,       "nextTable",           TypeInt,             4 ,               3)
+          (1,       "table-id",            TypeInt,             4 ,               1)
+          (1,       "table-name",          TypeVarChar,         50,               2)
+          (1,       "file-name",           TypeVarChar,         50,               3)
+          (2,       "table-id",            TypeInt,             4,                1)
+          (2,       "column-name",         TypeVarChar,         50,               2)
+          (2,       "column-type",         TypeInt,             4,                3)
+          (2,       "column-length",       TypeInt,             4,                4)
+          (2,       "column-position",     TypeInt,             4,                5)
+The first entry records the current table id, when a new table is created, it can directly use it, as we have two system table, it was initialze with 3, when a new table is created,it will increase
+
+
+
+3. Internal Record Format
+- Show your record format design and describe how your design satisfies O(1) field access. If not, just mention that your team hasn't implemented this feature.
+- Describe how you store a VarChar field.
+- Describe how you deal with an update and delete.
+
+our Internal record format
+TOMESTONE|FieldPointer|NULLIDC|DATA
+
+when you want to find a item, you can simply get position on FiledPointer,based on it nums,it can satisfy 0(1) time
+
+
+VarChar fields are stored with length and content. frist we calcalte the length of varchar, write in the length with 4 Byte, than store the content
+
+When delete, we set PAGE_SIZE=0, when update and if this page not have space, we set PAGE_SIZE=4096, and update tomestone to it true store place,detail shows in below
+
+
+4. Page Format
+- Show your page format design.
+- Describe how you deal with an update and delete.
+
+Record|Record......
+
+Entrey|slotnum|avalibleidx
+
+
+Update:
+
+1. if it has enough space, we remove the original record, and update it with new one, than we make the data after the original one now after the new one, and we need update offset of all records entry whose behind the record
+
+2. if it has not enought space, we simply delete it only reseve tomestone of it, which points to the page that store the update record one. and we need update offset of all records entry whose behind the record
+when we find place, it just like insert
+
+
+Delete:
+
+
+(1) delete the record,use reocrd after it replace it, we also need to delete the tomestone,(which may point to it)and we need update offset of all records entry whose behind the record
+
+
+
+
+
+5. File Format
+- Show your file format design
+
+Each file on disk corresponds to a table with the same name,you can use appendPage add page for this file, and you can delete file use FileDelete(),
+the file is made up of Page.
+When you write a file, you need keep its atrritube in the table and colums file, which will help you read data in the future.
+
+
+
+
+6. Implementation Detail
+- Other implementation details goes here.
+
+When you want to change system caltog it is unallowed.
+Use many implemtation, which made code more clear and easy read.
+For scan funtion, we divied it into has condition and no condition, when has condition, we just compare if it is satisfy, when no condition, we simply return next one. Finally we return data we want find the slotId that satisfy the requreiment
+
+
+
+7. Other (optional)
+- Freely use this section to tell us about things that are related to the project 2, but not related to the other sections (optional)
+
+
+
